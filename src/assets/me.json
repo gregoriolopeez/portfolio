@@ -1,0 +1,35 @@
+{
+    "nombre": "Gregorio",
+    "apellidos": "López",
+    "profesion": "Diseñador y desarrollador web",
+    "ubicacion": "Granada, España",
+    "servicios": [
+      "Diseño y desarrollo web, ",
+      "Tiendas online, ",
+      "Marketing online, ", 
+      "Diseño gráfico, ",
+      "Publicidad y multimedia"
+    ],
+    "intereses": [
+      "Creación de páginas web y tiendas online personalizadas",
+      "Desarrollo de soluciones web para negocios físicos"
+    ],
+    "herramientas": [
+      "WordPress, ",
+      "WooCommerce, ",
+      "Excel, ",
+      "Docker"
+    ],
+    "proyectos": [
+      {
+        "nombre": "Venta de entradas para fiestas en Granada",
+        "descripcion": "Gestión de relaciones públicas y venta de entradas para eventos y fiestas en la ciudad."
+      },
+      {
+        "nombre": "Mamasitas´s Moda",
+        "descripcion": "Desarrollo de una tienda online con WooCommerce para una tienda física de ropa femenina."
+      }
+    ],
+    "planFuturo": "Crear una agencia de páginas web y marketing en Granada, ofreciendo servicios de diseño, desarrollo y promoción online."
+  }
+  
