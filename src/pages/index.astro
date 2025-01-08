@@ -6,10 +6,9 @@ const { default: meData } = await import('../assets/me.json')
 ---
 
 <Layout>
-	<h1>{meData.nombre + " " + meData.apellidos}</h1>
-	<h2>{meData.ubicacion}</h2>
-	<h3>{meData.profesion}</h3>
-	<p>{meData.servicios}</p>
-	<p>{meData.intereses}</p>
-	<p>{meData.herramientas}</p>
+	<h1>{meData.nombre}</h1>
+	<h2>{meData.profesion}</h2>
+	<p>{meData.biografía}</p>
+	<p>{meData.experencia}</p>
+	<p>{meData.habilidades}</p>
 </Layout>
