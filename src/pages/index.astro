@@ -9,6 +9,13 @@ const { default: meData } = await import('../assets/me.json')
 	<h1>{meData.nombre}</h1>
 	<h2>{meData.profesion}</h2>
 	<p>{meData.biografía}</p>
-	<p>{meData.experencia}</p>
-	<p>{meData.habilidades}</p>
+	<p>{meData.experencia[0].nombre}</p>
+	<li>{meData.habilidades[0]}</li>
+	<li>{meData.habilidades[1]}</li>
+	<li>{meData.habilidades[2]}</li>
+	<li>{meData.habilidades[3]}</li>
+	<li>{meData.habilidades[4]}</li>
+	<li>{meData.habilidades[5]}</li>
+	<li>{meData.habilidades[6]}</li>
+	<li>{meData.habilidades[7]}</li>
 </Layout>
