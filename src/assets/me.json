@@ -1,21 +1,41 @@
 {
     "nombre": "Gregorio",
     "profesion": "Diseñador y desarrollador web",
-    "biografía": "Granada, España",
+    "biografía": "Soy desarrollador y diseñador web con experiencia en WordPress, HTML y CSS, además de Community Manager y relaciones públicas. He gestionado redes sociales, creado campañas de marketing digital y promocionado eventos en discotecas. Mi objetivo es ofrecer soluciones web y de marketing digital adaptadas a cada cliente.",
     "experencia": [
       {
-        "nombre": "",
-        "descripcion": "",
-        "fecha": ""
+        "nombre": "Diseñador y desarrollador web",
+        "descripcion": "Configuración de productos en Woocomerce",
+        "fecha": "Marzo - Junio 2024"
       },
       {
-        "nombre": "Mamasitas´s Moda",
-        "descripcion": "Desarrollo de una tienda online con WooCommerce para una tienda física de ropa femenina."
+        "nombre": "Diseñador y desarrollador web",
+        "descripcion": "Diseño y creación de webs.",
+        "fecha": "2021 - 2023"
+      },
+      {
+        "nombre": "Community manager",
+        "descripcion": "Diseño de folletos, flyers, publicaciones y ofertas.",
+        "fecha": "2023"
+      },
+      {
+        "nombre": "Diseñador gráfico",
+        "descripcion": "Diseño y maquetación de materiales para ferias y eventos.",
+        "fecha": "2019 - 2022"
       }
     ],
     "habilidades": [
-      "Creación de páginas web y tiendas online personalizadas",
-      "Desarrollo de soluciones web para negocios físicos"
+      "Diseño web",
+      "Fotografia",
+      "Woocommerce",
+      "Adobe Photoshop",
+      "Adobe Ilustrator",
+      "Wordpress",
+      "Shopify",
+      "HTML",
+      "CSS",
+      "Suite Microsoft",
+      "Relaciones Públicas"
     ]
   }
   
