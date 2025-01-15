@@ -1,9 +1,75 @@
-section{
-    max-width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section{
+    max-width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+
+.nombre{
+    font-size: 72px;
+    line-height: 100%;
+}
+
+.profesion{
+    font-size: 36px;
+    line-height: 101%;
+}
+
+.bio{
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.experencia{
+    padding: 16px;
+    border: 1px ;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    background-color: antiquewhite;
+}
+
+.titulo-experencia{
+    font-size: 1.5rem;
+    font-weight: bold;
+    max-width: 50%;
+}
+.fecha-experencia{
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.habilidad{
+    width: fit-content;
+
+}
+.habilidad p{
+    width: fit-content;
+    border: 1px;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 0%;
+    background-color: lightblue;
+}
+.envoltura-habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 8px;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-top: 25px;
+}
+
+footer a{
+    color:lightblue;
+    text-decoration: none;
 }
