@@ -24,7 +24,9 @@ const { default: meData } = await import('../assets/me.json')
   <section>
     <h3>Habilidades:</h3>
       {meData.habilidades.map((habilidad, index) => (
-        <article>{habilidad}</article>
+        <article>
+          <p>{habilidad}</p>
+        </article>
       ))}
   </section>
   </Layout>
