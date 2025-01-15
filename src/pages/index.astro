@@ -6,28 +6,39 @@ const { default: meData } = await import('../assets/me.json')
 ---
 
 <Layout>
-  <h1>{meData.nombre}</h1>
-  <h2>{meData.profesion}</h2>
-  <p>{meData.biografía}</p>
-
-  <section>
-    <h3>Experiencia:</h3>
-      {meData.experencia.map((item, index) => (
-        <article>
-          <p>{item.nombre}:</p>
-	        <p>{item.descripcion}</p>
-          <p>{item.fecha}</p>
-        </article>
-      ))}
+  <section class="hero">
+    <h1 class="nombre">{meData.nombre}</h1>
+    <p class="profesion">{meData.profesion}</p>
+    <p class="bio">{meData.biografía}</p>
   </section>
 
   <section>
-    <h3>Habilidades:</h3>
-      {meData.habilidades.map((habilidad, index) => (
-        <article>
-          <p>{habilidad}</p>
-        </article>
-      ))}
+    <h2>Experiencia:</h2>
+      {
+        meData.experencia.map((item) => (
+          <article class="experencia">
+            <p class="titulo-experencia">{item.nombre}</p>
+	          <p class="descripción-experencia">{item.descripcion}</p>
+            <p class="fecha-experencia">{item.fecha}</p>
+          </article>
+        ))
+      }
   </section>
+  <section>
+    <h2>Habilidades:</h2>
+    <div class="envoltura-habilidades">
+      {
+        meData.habilidades.map((habilidad) => (
+          <article class="habilidad">
+            <p>{habilidad}</p>
+          </article>
+        ))
+      }
+      </div>
+  </section>
+  <footer>
+    <p>Hecho por gregolopez, Ver en <a href="https://github.com/gregoriolopeez/portfolio">GitHub</a></p>
+    <p>2025</p>
+  </footer>
   </Layout>
   
