@@ -1,4 +1,5 @@
 ---
+layout: "../../layouts/Layout.astro"
 title: "Granada Palace"
 description: "crear web granada palace"
 url: "my-project"
