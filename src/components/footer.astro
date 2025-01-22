@@ -1,0 +1,45 @@
+---
+import Instagram from './icons/instagram.astro';
+import GitHub from './icons/github.astro';
+import Linkedin from './icons/linkedin.astro';
+---
+<footer>
+    <nav>
+        <ul>
+            <li><a href=""><Instagram /></a></li>
+            <li><a href=""><GitHub /></a></li>
+            <li><a href=""><Linkedin /></a></li>
+        </ul>
+    </nav>
+    <p>
+        <p>Hecho por gregolopez, Ver en <a href="https://github.com/gregoriolopeez/portfolio">GitHub</a></p>
+        <p>2025</p>
+    </p>
+    
+  
+    <style>
+      footer {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        align-items: center;
+      }
+      li{
+        list-style: none;
+      }
+  
+      ul {
+        padding: 16px;
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        align-items: center;
+        width: fit-content;
+      }
+
+      p {
+        text-align: center;
+        padding: 8px;
+      }
+    </style>
+  </footer>
