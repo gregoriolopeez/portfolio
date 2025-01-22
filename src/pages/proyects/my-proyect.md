@@ -1,4 +1,0 @@
-# Mi proyecto
-
-## Introducción
-### Contenido

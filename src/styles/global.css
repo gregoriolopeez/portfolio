@@ -25,6 +25,22 @@ section{
     line-height: 150%;
 }
 
+.enlace-proyecto{
+    color: blue;
+}
+
+.enlace-proyecto:hover{
+    color: rgb(74, 74, 156);
+}
+
+.proyecto{
+    padding: 16px;
+    border: 1px ;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    background-color: antiquewhite;
+}
+
 .experencia{
     padding: 16px;
     border: 1px ;
