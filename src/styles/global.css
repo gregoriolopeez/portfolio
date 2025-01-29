@@ -1,19 +1,29 @@
 html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
 section{
-    max-width: 75%;
+    max-width: 85%;
     margin-right: auto;
     margin-left: auto;
     align-items: center;
-    padding-top: 25px;
+    margin-top: 84px;
 }
 
+.hero{
+    align-content: center;
+    padding: 32px;
+    height: auto;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 12px;
+}
 
 .nombre{
     font-size: 72px;
     line-height: 100%;
+    text-align: center;
 }
 
 .profesion{
@@ -22,16 +32,18 @@ section{
 }
 
 .bio{
-    font-size: 18px;
+    font-size: 14px;
     line-height: 150%;
 }
 
 .enlace-proyecto{
-    color: blue;
+    color: black;
+    text-decoration: none;
 }
 
 .enlace-proyecto:hover{
     color: rgb(74, 74, 156);
+    text-decoration: underline;
 }
 
 .proyecto{
@@ -41,6 +53,8 @@ section{
     margin-bottom: 16px;
     background-color: antiquewhite;
 }
+
+
 
 .experencia{
     padding: 16px;
@@ -58,6 +72,7 @@ section{
 .fecha-experencia{
     font-size: 10px;
     font-weight: normal;
+    text-align: end;
 }
 
 .habilidad{
